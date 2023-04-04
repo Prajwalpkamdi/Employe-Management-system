@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+.ab{
+border: 2px solid;
+border-radius: 2px;
+height: 500px;
+width: 400px;
+background: linear-gradient(aqua,rgb(0, 255, 162),rgb(0, 255, 94));
+margin-top: 80px;
+    margin-left: 600px;
+    position: fixed;
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+}
+button
+{
+    background: linear-gradient(rgb(255, 0, 238),aqua);
+}
+#myVideo 
+{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}

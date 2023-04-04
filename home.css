@@ -1,0 +1,206 @@
+@charset "ISO-8859-1";
+body
+{
+    background-image: url(../image/back.jpg) ;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    
+}
+#head
+{
+    width: 900px;
+    font-size: 45px;
+    padding-bottom: 10px;
+    
+    font-family: sans-serif; /* choosing our font */
+      background: linear-gradient(to right, rgba(255, 196, 255, 0.868) 0%, rgba(255, 244, 39, 0.795) 20%, rgb(255, 255, 255) 61%), linear-gradient(rgb(215, 97, 217) 52%, rgb(37, 255, 168) 60%, rgb(255, 84, 84) 61%);
+        background-clip: text; /*it defines how far the background should extend within an element, here we set it to text */
+        -webkit-background-clip: text; /*for browsers compatibility */
+        -webkit-text-fill-color: transparent; /* specifies the fill color of text characters. We use transparent to use the background as our text fill  */
+        animation: wave 2000ms ease alternate infinite;
+        transition: all 0.4s ease;
+         font-weight: bold;
+}
+@keyframes wave {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: 50vw 10px;
+        }
+      }
+#img
+{
+	padding-top:20px;
+    height: 80px;
+}
+#button1
+{
+    border: 2px solid;
+    border-radius: 20px 50px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(90deg,rgb(230, 255, 250) 0%,rgb(255, 179, 135) 100%);
+}
+a
+{
+    color: white;
+}
+footer{
+    background: linear-gradient(90deg,rgb(255, 109, 25) 0%,rgb(63, 252, 211) 100%);
+    padding: 50px;
+}
+footer .pages{
+    text-align: center;
+}
+footer .pages h3{
+    color: blueviolet;
+    font-size: 20px;
+    font-family: cosmic,sans-serif;
+    padding: 5px;
+}
+footer .pages a{
+    text-decoration: none;
+    margin: 10px;
+    color: orange;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+}
+footer .pages a:hover{
+    color: aliceblue;
+}
+footer .doc{
+    text-align: center;
+}
+footer .doc h3{
+    color:  black;
+    font-size: 20px;
+    font-family: cosmic,sans-serif;
+    padding: 5px;
+}
+footer .doc a{
+    text-decoration: none;
+    margin: 10px;
+    color: orange;
+    font-size:15px;
+    font-family: cosmic, sans-serif;
+}
+footer .doc a:hover{
+    color: aliceblue;
+}
+footer .Social{
+    text-align: center;
+}
+footer .Social h3{
+    color:  black;
+    font-size: 20px;
+    font-family: cosmic,sans-serif;
+    padding: 5px;
+}
+footer .contact{
+    text-align: center;
+}
+footer .contact h3{
+    color:  black;
+    font-size: 20px;
+    font-family: cosmic,sans-serif;
+    padding: 5px;
+}
+.product h2{
+    color: orangered;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+.product .product_container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.product .product_container .item{
+    width: 33.33%;
+    margin: 10px;
+    height: 350px;
+    color: white;
+    background: linear-gradient(rgba(203, 44, 44, 0.87),rgba(123, 0, 0, 0.801));
+}
+.product .product_container .item:hover{
+    box-shadow: 0px 3px 65px 0px rgb(255, 61, 2);
+}
+.product .product_container .item .item_img{
+    width:100%;
+    height:250px ;
+    overflow: hidden;
+}
+.product .product_container .item .item_img img{
+    width: 100%;
+    height: 250px;
+}
+.product .product_container .item .item_content{
+    text-align: center;
+}
+.product .product_container .item .item_content h3{
+    padding: 10px;
+    font: size 15px; 
+    font-family: cosmic, sans-serif;
+
+}
+.product.product_container.item .item_content p{
+    padding: 20px;
+    font-size: 15px;
+    font-family: cosmic,sans-serif;
+}
+.product .product_container .item .item_content a{
+
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 20px;
+    background-color:hsla(39, 100%, 92%, 0.815) ;
+    color: rgba(0, 0, 0, 0.719);
+    font-family: cosmic, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 1s;
+    position: relative;
+    top: 15px;
+}
+.product .product_container .item .item_content a:hover{
+    background-color: brown;
+    color: orangered;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 1s;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 15px;
+}
+.product .product_btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.product .product_btn a{
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 20px;
+    background-color:hsla(39, 100%, 94%, 0.815) ;
+    color: rgba(0, 0, 0, 0.719);
+    font-family: cosmic, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 1s;
+}
+.product .product_btn a:hover{
+    background-color: brown;
+    color: orangered;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 1s;
+    text-align: center;
+}
+
